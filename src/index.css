@@ -1,1 +1,88 @@
 @import "tailwindcss";
+
+/* ADDING CUSTOM FONTS */
+@font-face {
+  font-family: "charter";
+  src: url("/fonts/charter-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "charter";
+  src: url("/fonts/charter-bold-italic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "charter";
+  src: url("/fonts/charter-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "charter";
+  src: url("/fonts/charter-italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sf-pro-display";
+  src: url("/fonts/sf-pro-display-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sf-pro-display";
+  src: url("/fonts/sf-pro-display-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sf-pro-display";
+  src: url("/fonts/sf-pro-display-semibold-italic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sf-pro-display";
+  src: url("/fonts/sf-pro-display-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sf-pro-display";
+  src: url("/fonts/sf-pro-display-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sf-pro-display";
+  src: url("/fonts/sf-pro-display-light-italic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary-blue: #58BDF6;
+  --font-charter: "charter", serif;
+  --font-sf-pro-display: "sf-pro-display", serif;
+}
