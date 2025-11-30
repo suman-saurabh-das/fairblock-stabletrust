@@ -16,11 +16,10 @@ const Section02 = () => {
             </p>
             <p>That’s not how real business operates.</p>
             <p>
-              Stabletrust finally makes privacy painless and usable on
-              blockchains.
+              Stabletrust finally makes privacy painless and usable on blockchains through confidentiality.
             </p>
             <p className="hidden sm:block font-sf-pro-display font-bold italic sm:text-lg">
-              Stabletrust finally makes privacy painless and usable on blockchains through confidentiality.
+              Confidentiality [kon-fi-den-shi-al-i-tee]: Incorruptible money movement with built-in compliance.
             </p>
           </div>
         </div>
