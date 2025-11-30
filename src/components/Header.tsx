@@ -68,20 +68,20 @@ const Header = () => {
       >
         <a
           className="py-2"
-          href="https://stabletrust.fairblock.network/how-it-works.html"
+          href="https://app.stabletrust.fairblock.network/how-it-works.html"
           rel="noopener noreferrer"
           target="_blank"
         >
           How it works
         </a>
-        <a
+        {/* <a
           className="py-2"
           href="https://stabletrust.fairblock.network/how-it-works.html"
           rel="noopener noreferrer"
           target="_blank"
         >
           FAQ
-        </a>
+        </a> */}
       </div>
     </>
   );

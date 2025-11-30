@@ -20,7 +20,7 @@ const Section02 = () => {
               blockchains.
             </p>
             <p className="hidden sm:block font-sf-pro-display font-bold italic sm:text-lg">
-              Private by default. Verifiable on demand.
+              Stabletrust finally makes privacy painless and usable on blockchains through confidentiality.
             </p>
           </div>
         </div>
