@@ -80,6 +80,32 @@ export default function ScrollStepSection({ steps }: Props) {
                 </div>
               </motion.div>
             ))}
+
+            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3">
+              {steps.map((_, i) => (
+                <motion.div
+                  key={i}
+                  onClick={() => {
+                    const target = i / steps.length;
+                    window.scrollTo({
+                      top:
+                        ref.current!.offsetTop +
+                        target * ref.current!.offsetHeight,
+                      behavior: "smooth",
+                    });
+                  }}
+                  className="bg-gray-300 cursor-pointer rounded-full h-1 w-8"
+                  style={{
+                    backgroundColor: useTransform(stepIndex, (cur) =>
+                      cur === i ? "#58BDF6" : "#d1d5db"
+                    ),
+                    scale: useTransform(stepIndex, (cur) =>
+                      cur === i ? 1.3 : 1
+                    ),
+                  }}
+                />
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>

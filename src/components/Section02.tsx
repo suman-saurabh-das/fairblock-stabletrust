@@ -27,7 +27,7 @@ const Section02 = () => {
           </div>
         </div>
         <video
-          className="md:max-w-1/4"
+          className="max-w-1/2 md:max-w-1/4 mx-auto sm:mx-0"
           autoPlay
           loop
           muted

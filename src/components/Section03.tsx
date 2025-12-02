@@ -25,7 +25,7 @@ const CARD_DETAILS = [
     imgUrl: "/s03-business-and-institutions.svg",
     title: "Businesses and Institutions",
     content:
-      "Keep payroll and commercial terms confidential. Protect your competitive and regulatory standing.",
+      "Keep payroll and commercial terms confidential. Protect your edge and regulatory standing.",
   },
 ];
 
