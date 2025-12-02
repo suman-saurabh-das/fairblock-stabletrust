@@ -26,7 +26,7 @@ const BackgroundVideo = () => {
         //   e.currentTarget.currentTime = 3; // ⬅ start at 3 seconds
         // }}
       >
-        <source src="/s01-hero-animation-new.mp4" type="video/mp4" />
+        <source src="/s01-hero-animation.mp4" type="video/mp4" />
       </video>
     </div>
   );
