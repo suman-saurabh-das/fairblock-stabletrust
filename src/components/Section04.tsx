@@ -6,7 +6,7 @@ const STEPS = [
     title: "Payments",
     description:
       "Pay employees, contractors, partners, KOLs, and vendors without leaking comp, rates, or terms",
-    image: "/s04-payments.svg",
+    image: "/s04-payments.png",
   },
   {
     title: "Treasury",

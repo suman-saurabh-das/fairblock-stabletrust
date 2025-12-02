@@ -33,7 +33,7 @@ const Section02 = () => {
           muted
           playsInline
         >
-          <source src="/s02-animation-new.mp4" type="video/mp4" />
+          <source src="/s02-animation.mp4" type="video/mp4" />
         </video>
       </div>
       <p className="sm:hidden font-sf-pro-display font-bold italic sm:text-xl text-center">
