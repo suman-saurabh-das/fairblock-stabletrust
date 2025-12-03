@@ -21,7 +21,7 @@ const Header = () => {
         <div className="hidden sm:flex gap-12 items-center">
           <div className="flex gap-4">
             <a
-              href="https://app.stabletrust.fairblock.network/how-it-works.html"
+              href="https://app.stabletrust.io/how-it-works.html"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -37,7 +37,7 @@ const Header = () => {
           </div>
           <a
             className="hidden sm:block primary-button"
-            href="https://app.stabletrust.fairblock.network/"
+            href="https://app.stabletrust.io/"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -68,7 +68,7 @@ const Header = () => {
       >
         <a
           className="py-2"
-          href="https://app.stabletrust.fairblock.network/how-it-works.html"
+          href="https://app.stabletrust.io/how-it-works.html"
           rel="noopener noreferrer"
           target="_blank"
         >
